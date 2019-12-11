@@ -1,2 +1,2 @@
 # BookDatabase
-I created a database project in Eclipse. The project allows the user to select from a series of statements will get information on the author, publisher, or book.
+I created a database project in Eclipse. The Project creates a connection to the books.db which contains 4 tables: Authors, Publishers, Books, and Wrote. When the user runs the java application they will be prompted with 6 choices to get information about the databases. When you user selects a choice the application makes a connection to the database and performs and SQLite statement to retrieve information. Once the information is retrieved the information is then printed on the screen to the user.
